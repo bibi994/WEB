@@ -1,0 +1,37 @@
+body {
+  font-size: 20px;
+  font-weight: 400;
+}
+.font1 {
+  @font-face {
+      font-family: Inconsolata-Regular;
+      src: url.("./font/Inconsolata-Regular.ttf");
+  }; 
+  font-size: 15px; !important
+}
+.font2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+font-style: oblique;
+}
+.font3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.font1 q {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.font2 q {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.font3 q {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.font3 span{
+    font-weight: 100;
+    font-style: italic;
+}
+h1{
+    @font-face {
+        font-family:Charmonman ;
+        src: url("https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet");
+    }
+}

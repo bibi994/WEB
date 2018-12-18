@@ -1,0 +1,20 @@
+.bg-color{
+    background-color: #21414f;
+
+}
+
+button{
+    display: block;
+    background-color: #c6352a;
+    color: white;
+    padding: 10px;
+    margin: 0 auto 15px auto;;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#autoToggle{
+    background-color: #ffbc41;
+    color: white;
+}

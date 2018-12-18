@@ -1,0 +1,21 @@
+ul{
+    background: rgb(170, 1, 1);
+}
+.row {
+    margin-top: 20px;
+}
+
+.list-group li{
+    background-color: gold;
+}
+.page-footer{
+    background-color: #001a52
+}
+.footer-copyright{
+    color: white;
+}
+
+.nav-link{
+text-decoration: none;
+color: white;
+}

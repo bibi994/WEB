@@ -1,0 +1,50 @@
+form{
+    background-color: #ededee;
+    width: 300px;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 20px 0 10px 0;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+input{
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 5px 0.5px #525252;
+    border-color: lightgray;
+    border-radius: 5px 5px 5px 5px; 
+    padding-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+h1 span{
+    color: #ffbc41;
+    margin-left: -7px;
+}
+button{
+    background-color: #c6342a;
+    color:white;
+    width: 105%;
+    height: 35px;
+    border-radius: 10px 10px;
+    font-size: 16px;
+    margin-top:30px;
+    border: 0px;
+}
+.crosshair {
+    cursor: crosshair;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.buttonhover {
+    cursor:url(https://cdn0.iconfinder.com/data/icons/flat-round-system/512/apple-128.png), auto;
+}

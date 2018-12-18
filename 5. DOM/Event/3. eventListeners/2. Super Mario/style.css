@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100vh;
+    background-image: url("./img/bg.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.mario{
+    position: absolute;
+    bottom: 17%;
+    left: 42%;
+}

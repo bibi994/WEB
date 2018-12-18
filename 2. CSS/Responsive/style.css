@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.heading {
+  float: left;
+  padding-top: 2%;
+}
+header {
+  margin-top: 3%;
+}
+
+img {
+  float: left;
+  width: 10%;
+  display: inline-block;
+  margin-right: 2%;
+}
+
+main {
+  clear: both;
+  padding-top: 3%;
+}
+.right {
+  width: 50%;
+  float: right;
+  border-left: 2px solid;
+  padding-left: 2%;
+}
+
+.left {
+  float: left;
+  width: 45%;
+}
+h2 {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}

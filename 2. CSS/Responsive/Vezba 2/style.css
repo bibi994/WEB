@@ -1,0 +1,80 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+* {
+  margin: 0;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  background-color: #c6342a;
+  float: right;
+  width: 100%;
+  padding: 15px 20px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+  float: right;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  margin-top: 3px;
+}
+
+article {
+  width: 310px;
+  float: left;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.clear {
+  clear: left;
+}
+
+aside {
+  float: right;
+  width: 230px;
+  margin-top: 15px;
+}
+
+.right ul {
+  background-color: orange;
+  width: 270px;
+  padding: 20px 30px;
+}
+
+.right li {
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  padding: 5px 5px;
+  border-bottom: 1px solid rgb(46, 46, 46);
+}
+
+footer {
+  width: 100%;
+  clear: both;
+  background: #224050;
+  padding: 10px;
+  color: white;
+  margin-top: 10px;
+}

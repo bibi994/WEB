@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 4%;
+  position: relative;
+}
+header h1 {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+header img {
+  border-radius: 3%;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 3%;
+}
+header nav ul {
+  margin: 3% 0;
+  list-style-type: none;
+  display: block;
+  border-collapse: collapse;
+}
+header nav li a {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: block;
+  width: 100%;
+  border: 0.5px solid lightgray;
+  height: 40%;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+header nav li a:hover {
+  background-color: rgb(0, 129, 214);
+  color: white;
+  border-radius: 2%;
+}
+
+article {
+  border-radius: 2%;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 3%;
+  margin-bottom: 7%;
+}
+article img {
+  width: 100%;
+}
+
+article p {
+  text-align: center;
+  margin: 2% 0;
+}
+
+@media (min-width: 576px) {
+  header h1 {
+    text-align: left;
+  }
+  header img {
+    margin-bottom: 3%;
+  }
+
+  header nav {
+    position: absolute;
+    top: 4%;
+    right: 3%;
+    width: 40%;
+  }
+  header nav ul li {
+    display: inline-block;
+    width: 32%;
+  }
+  header nav ul li a {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    border: 0;
+    font-size: 120%;
+    color: rgb(22, 126, 245);
+  }
+  header nav ul li a:hover {
+    background-color: rgb(0, 129, 214);
+  }
+  article {
+    margin-top: 3%;
+    margin-bottom: 0;
+  }
+
+  .clearFix:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  article img {
+    width: 30%;
+    float: left;
+  }
+  article p {
+    width: 70%;
+    float: left;
+    font-size: 120%;
+  }
+}
+@media (min-width: 1200px) {
+  header h1 {
+    margin-top: 0;
+  }
+  header img {
+    margin-bottom: 0;
+  }
+  header nav {
+    top: 2%;
+  }
+  article {
+    display: inline-block;
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    border: 0;
+    margin-bottom: 3%;
+    padding: 0;
+  }
+  .rightmargin {
+    margin-right: 0;
+  }
+  article img {
+    width: 100%;
+  }
+  article p {
+    width: 100%;
+
+    margin-top: 2%;
+  }
+}

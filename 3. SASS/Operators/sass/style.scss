@@ -1,0 +1,26 @@
+@mixin border($color){
+    border: 2px solid $color;
+}
+.position {
+    width: 480px * 2;
+    margin: 5px auto;
+}
+.class{
+    border: 3px solid green;
+    background-color: red;
+    color:white;
+}
+p:nth-of-type(1){
+    @include border(red);
+    @extend .position;
+}
+p:nth-of-type(2){
+    @include border(blue);
+    @extend .position;
+}
+p:nth-of-type(3){
+    @include border(green);
+    @extend .position;
+    @extend .class;
+}
+

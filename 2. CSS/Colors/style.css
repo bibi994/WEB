@@ -1,0 +1,39 @@
+#prviparagraf{
+    color:white;
+    background-color: red;
+    opacity: 0.5;
+}
+.rgb{
+    color:white;
+    background-color:rgb(0, 0, 255,0.5);
+}
+.hex{
+    color: white;
+    background-color:rgb(218, 218, 218);
+}
+.img1{
+    opacity: 0.7;
+}
+.img2{
+    background: rgba(200,0,0,0.5 );
+}
+
+.prva {
+    background-color:AliceBlue;
+}
+
+.druga {
+    background-color: HotPink;
+}
+
+.treca {
+    background-color: blue;
+}
+
+.cetvrta {
+    background-color: red;
+}
+
+.peta {
+    background-color: pink;
+}

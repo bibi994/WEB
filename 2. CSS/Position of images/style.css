@@ -1,0 +1,31 @@
+body{
+    position: relative;
+}
+.firstImage{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 50px;
+}
+.secondImage{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.thirdImage{
+    position: absolute;
+    bottom: 0px;
+    width: 150px;
+}
+.link{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+p{
+    width: 900px;
+    margin: 0px auto;
+}
+.back{
+    height: 100px;
+}

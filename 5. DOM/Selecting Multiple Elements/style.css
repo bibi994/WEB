@@ -1,0 +1,14 @@
+.ul-bg-color{
+    background-color: lightgreen;
+    padding: 20px;
+}
+.li-bg-color{
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.thirth-li{
+    background-color: rgb(255, 137, 137);
+    text-transform: uppercase;
+    padding: 5px;
+}

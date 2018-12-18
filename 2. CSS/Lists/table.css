@@ -1,0 +1,21 @@
+ul.first {
+    list-style-type: circle;
+}
+ul.second {
+    list-style-type: square;
+}
+ol.third {
+    list-style-type: upper-alpha;
+}
+ol.fourth{
+    list-style-type: upper-roman;
+}
+ul.fifth {
+    list-style-image: url('https://www.w3schools.com/cssref/sqpurple.gif');
+    width: 200px;
+ 
+}
+ul.sixth {
+    list-style-image: url('https://www.w3schools.com/cssref/sqpurple.gif');
+    width: 200px;
+    list-style-position: inside;

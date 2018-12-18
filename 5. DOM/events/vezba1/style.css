@@ -1,0 +1,19 @@
+.bgcolor{
+    background-color: rgb(38, 38, 78);
+}
+#buttonBgManual{
+    display: block;
+    margin: 2% auto;
+    padding: 1%;
+    background-color: rgb(194, 47, 47);
+    color:white;
+    border-radius: 10px;
+}
+#buttonBgAuto{
+    display: block;
+    margin: 2% auto;
+    padding: 0.8%;
+    background-color: rgb(250, 192, 1);
+    color:white;
+    border-radius: 10px;
+}

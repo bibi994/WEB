@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf");
+    
+}
+.clearFix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* NAV Start */
+
+nav {
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: #6d6d6d;
+}
+nav a span{
+    color: #ff962f;
+    border: 3px solid #6d6d6d;
+    border-right: 0px;
+    padding-left: 2%;
+    margin-right: 2%;
+}
+nav ul{
+    background-color: #79c1f2;
+    margin: 0 6%;
+    list-style-type: none;
+    margin-bottom: 5%;
+}
+nav ul li {
+    padding: 2%;
+}
+nav ul li a{
+    color: white;  
+}
+
+/* NAV End */
+
+
+/* Header Start */
+header{
+    background-image: url("./images/banner3.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 3%;
+    padding-bottom:20%; 
+}
+header h2{
+    text-align: center;
+    padding: 20% 10% 10% 10%;
+    color: white;
+}
+
+header a{
+    color: white;
+    background-color: #016eae;
+    border-radius: 30px;
+    padding: 2% 4%;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* Header End */
+
+/* Tablet CSS Start */
+
+@media(min-width: 768px){
+    nav a{
+        float: left;
+    }
+
+    nav ul{
+        float: right;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        margin-left: 5%;
+    }
+    nav a span{
+        color: #ff962f;
+        border: 3px solid white;
+        border-right: 0px;
+        padding-left: 2%;
+        margin-right: 2%;
+    }
+
+    nav ul{
+        width: 45%; 
+        background: transparent;
+        margin: 0;
+    }
+    nav ul li {
+        padding: 2%;
+        display: inline-block;
+        margin-top: 6%;
+        
+        
+    }
+    nav ul li a{
+        color: white;
+        width: 100%;  
+    }
+
+    /* header css */
+
+    header h2{
+        letter-spacing: 5px;
+        padding-right:20%;
+        padding-left:20%;
+    }
+    header a{
+        padding: 1% 2%;
+    }
+
+}
+
+/* Tablet CSS End */
+
+/* PC CSS start */
+@media(min-width: 1200px){
+    nav a{
+        margin-left: 3%;
+    }
+
+    nav ul{
+        width: 35%; 
+    }
+
+    nav ul li {
+        margin-top: 3%;  
+    }
+    header h2{
+        padding-right:0;
+        padding-left:0;
+    }
+    header a{
+        padding: 1% 2%;
+    }
+    
+}
+
+section h2 {
+    text-align: center;
+    margin: 10% 0 2%;
+
+}
+
+.line {
+    display: block;
+    margin: 0 auto 4% auto;
+    width: 35%;
+}
+
+/* section hr {
+    width: 20%;
+    margin: 0 auto;
+    color: black;
+    margin-bottom: 5%;
+} */
+
+/* style for first section */
+
+main :first-child article {
+    padding: 0 10%;
+    line-height: 2;
+}
+
+main :first-child article h3 {
+    color: #7b9eff;
+    margin: 3% 0;
+}
+
+main :first-child article ul {
+    list-style-image: url("./images/arrow_bullet.png");
+    list-style-position: inside;
+
+}
+main :first-child article ul li {
+    line-height: 2.5;
+}
+
+main :first-child article img{
+    width: 100%;
+}
+/* first section --> style for TABLET */
+@media(min-width: 768px){
+    main #first-section article {
+        float: left;
+        width:50%;
+    }
+    main #first-section :nth-child(3){
+        padding-right: 1%;
+    }
+    main #first-section :nth-child(4){
+        padding-left: 1%;
+    }
+    main #first-section :last-child{
+            clear: both;
+            width: 100%;
+    }
+    main #first-section ul li {
+        padding: 0;
+    }
+    main #first-section p {
+        padding: 0;
+        margin-bottom: 3%;
+    }
+} 
+/* first section --> style for DESKTOP */
+@media(min-width: 1200px){
+    main #first-section {
+        padding: 0 13%;
+    }
+    main #first-section article h3 {
+        margin-top: 0;
+    }
+    main #first-section article :last-child {
+        width: 100%; 
+    }
+    main #first-section article {
+        float: left;
+        width: 35%;
+        padding: 1%;
+        margin: 0 auto;
+    }
+    main #first-section :nth-child(3){
+        padding-right: 1%;
+    }
+    main #first-section :nth-child(4) {
+        padding-right: 1%;
+    }
+    main #first-section :nth-child(4) img{
+        width: 100%;
+    }
+    main #first-section :last-child{
+        clear: none;
+        width: 30%;
+        padding-left: 1%;
+    }
+}
+
+/* style for second section */
+main :nth-child(2) article{
+    background-color: #79c1f2;
+    color: white;
+    padding: 5% 2%;
+    margin: 5% 10%;
+    line-height: 2;
+}
+main :nth-child(2) article img{
+    width: 15%;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 1%;
+    float: left;
+}
+main :nth-child(2) article h4{
+    display: inline;
+    color: black;
+    margin: 3%;
+}
+main :nth-child(2) article p{
+    clear: both;
+    width: 100%;
+}
+
+/* second section --> style for TABLET */
+@media(min-width: 768px){
+    main :nth-child(2){
+        padding: 0 5%;
+    }
+    main :nth-child(2) article{
+        width: 45%;
+        float: left;
+        margin: 2%;
+    }
+    main :nth-child(2) :nth-child(5){
+        margin: 0 2%;
+        width: 45%;
+    }
+}
+/* second section --> style for DESKTOP */
+@media(min-width: 1200px){
+    main :nth-child(2) article {
+        width: 30%;
+        margin-right: 3%;
+    }
+    main :nth-child(2) :nth-child(3) {
+        margin-left: 0;
+    }
+    main :nth-child(2) :nth-child(5) {
+        width: 30%;
+        margin: 2%;
+        margin-right: 0;
+    }
+
+    main :nth-child(2) article>img {
+        width: 30%;
+    }
+    main :nth-child(2) :nth-child(4) img{
+        width: 30%;
+    }
+    main :nth-child(2) article :last-child{
+        clear: both;
+    }
+}
+
+/* third section --> style */
+
+#contact article{
+    width: 50%;
+    float: left;
+    height: 200px;
+    
+}
+#contact article:first-of-type {
+    background-color: #69b369;
+    text-align: center;
+    color:white;
+    padding: 5%;
+    line-height: 2.5;
+    
+}
+
+#contact article:nth-of-type(2) {
+    background-color: #f8879a;
+    text-align: center;
+    color:white;
+    padding: 5%;
+    line-height: 2.5;
+    
+}
+.fab {
+    font-size: 150%;
+    margin-right: 7%;
+    margin-top: 7%;
+}
+#contact article:nth-of-type(3) {
+    background-color: #0084ff;
+    text-align: center;
+    color:white;
+    padding: 5%;
+    line-height: 2.5;
+}
+#contact article:nth-of-type(4) {
+    background-color: #79c1f2;
+}
+#contact article:nth-of-type(4) img{
+    width: 100%;
+    height: 100%;
+}
+#contact article:nth-of-type(5){
+    width: 100%;
+    height: 350px;
+}
+#contact article:nth-of-type(5) iframe{
+    width: 100%;
+    height: 350px;
+}
+/* third section --> style for DESKTOP */
+@media(min-width: 1200px){
+    #contact article{
+        width: 25%;
+        height: 200px;
+    }
+}
+#contact article:first-of-type {
+    padding: 3%;
+    
+}
+
+#contact article:nth-of-type(2) {
+   padding: 3%;
+}
+#contact article:nth-of-type(3) {
+    padding: 3%;
+ }
+ #contact article:nth-of-type(4) {
+    padding: 3%;
+ }
+
+/* fourth section (FORM) --> style */
+#form {
+    padding: 5%;
+}
+
+#form form input {
+    display: block;
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0;
+    border: 1px solid ;
+}
+
+#form form textarea {
+    display: block;
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0;
+    border: 1px solid ;
+
+}
+#form form button{
+    background-color: #ff962f;
+    padding: 1% 4%;
+    color: white;
+    border: 0;
+}
+
+/* Fourth section --> style TABLET */
+@media(min-width: 768px){
+#form form input {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+#form form input:nth-of-type(3){
+    margin-right: 0;
+}
+
+}
+
+/* Fourth section --> style DESKTOP */
+@media(min-width: 768px){
+    #form{
+        padding: 0 15%;
+    }
+}
+
+/* Footer style */
+footer {
+   background-color: black;
+   color: white;
+   margin-top: 3%; 
+   text-align: center;
+   padding: 10%;
+}
+footer ul {
+    list-style: none;
+    margin-bottom: 5%;
+}
+footer ul li {
+    display: inline;
+    padding: 1%;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+/* Footer style TABLET */
+@media(min-width: 768px){
+
+    footer {
+        padding: 5%;
+    }
+
+}
+

@@ -1,0 +1,18 @@
+@import 'mixins';
+@import 'variables';
+
+div {
+    width: $divWidth;
+    height: $divHeight;
+    background-color: $bgColorDiv;
+    margin: $marginDiv;
+    @include boxShadow();
+    float: left;
+}
+
+p {
+    width: $pWidth;
+    line-height: $pLineHeight;
+    @include textShadow();
+    clear: both;
+}

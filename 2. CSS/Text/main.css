@@ -1,0 +1,42 @@
+p.prvi {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: left;
+}
+
+p.drugi {
+  text-transform: lowercase;
+  text-decoration: line-through;
+  text-align: right;
+}
+
+p.prvi1 {
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+p.drugi2 {
+  line-height: 200%;
+  text-align: right;
+}
+p.treci3 {
+  text-align: center;
+}
+
+li {
+  color: blue;
+  text-shadow: 1px 1px #0a0404;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  background-color: blueviolet;
+}
+a:active {
+  color: rgb(0, 255, 106);
+}
